@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -55,7 +58,7 @@ padding-top: 5%;
     color: #ffff;
     font-size: 120px;
     font-weight: bolder;
-
+  
 }
 
 
@@ -115,6 +118,52 @@ padding-top: 5%;
 /* fin de code  */
 
 /* partie section 2 */
+
+
+.sectiondeux{
+    padding: 8%;
+    margin-left: 15%;
+    
+}
+
+.h2-sectiondeux{
+    font-family: "DM Serif Display", serif;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 35px;
+  
+}
+
+
+.boite-card{
+    display: flex;
+    margin-top: 2%;
+}
+
+
+
+.card {
+    background-image: url('src/images/nos_meilleures_ventes/1.jpg');
+    height: 50vh;
+    width: 30vw;
+    background-repeat: no-repeat;
+    background-size: 43% ; /* L'image sera redimensionnée pour être entièrement visible */
+    background-position: center; /* Centre l'image dans la carte */
+    border-radius: 8px; /* Ajoute des bords arrondis (optionnel) */
+    overflow: hidden; /* Cache les débordements pour les bords arrondis */
+}
+
+.bg-color {
+
+    background-color: #e9eaec;
+    margin-top: 63%;
+    width:  150px;
+    margin-left: 29%;
+    height: auto;
+}
+    
+
+
 
 
 
