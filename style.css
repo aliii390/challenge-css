@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* partie header */
+
+
+.background {
+    background-image: url(src/images/bg.jpg);
+    background-size: 100%; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 1%;
+    padding: 1%;
+}
+
+
+
+
+.a-block {
+    display: flex;
+    gap: 1px;
+}
+
+.a-block a {
+    text-decoration: none;
+    color: #ffff;
+    padding: 10px 15px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+
+
+/* partie text en dessous du header  */
+.textt{
+    display: flex;
+   margin-left: 5%;
+padding-top: 5%;   
+
+}
+
+
+.textt h1{
+    color: #ffff;
+    font-size: 120px;
+    font-weight: bolder;
+
+}
+
+
+
+.scroll{
+    padding-top: 5%;
+    margin-left: 3%;
+    margin-top: 15%;
+}
+
+.scroll h3{
+    color: #ffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+/* fin de code */
+
+
+/* partie main */
+
+.main{
+    padding: 3%;
+}
+
+/* fin du code  */
+
+
+/* 1ere section */
+
+.section-un{
+    display: flex;
+   text-align: center;
+   gap: 9%;
+   justify-content: center;
+   
+}
+
+
+.p-sectionun{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-top: 5%;
+}
+
+.fa-store{
+  color: #add980;
+  font-size: 20px;
+}
+
+
+.fa-truck-moving{
+    color: #add980;
+  font-size: 20px;
+}
+
+/* fin de code  */
+
+/* partie section 2 */
+
+
+
+/* fin du code */
